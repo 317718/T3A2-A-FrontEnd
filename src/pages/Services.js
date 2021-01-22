@@ -1,6 +1,13 @@
 import React from 'react'
-import '../../App.css';
+import Navbar from '../components/Navbar'
 
-export default function Services () {
-    return <h1 className='services'>Services</h1>
+function Services() {
+    return (
+        <div>
+           <Navbar /> 
+           <h1>Services</h1>
+        </div>
+    )
 }
+
+export default Services
