@@ -29,11 +29,13 @@ const Container = styled.div`
     }
 
     p {
-        display: flex;
+        
         color: #fff;
         font-family: sans-serif; 
         font-size: 25px;
-        padding: 10px;
+        width: 800px;
+        line-height: 1.5em;
+        padding: 50px;
         margin: 0;
 
 
@@ -47,8 +49,9 @@ function Hero () {
         <HeroContainer>
             <Container>
                 <h1>Larry's Lawncare</h1>
-                <p>With over 30 years’ experience in the Australian turf industry, we know our stuff when it comes to lawn care. Now, we’re opening the door to you.</p>
-                <p>Lawn Care Supplies is proudly backed by Larry's Lawncare, which has  serviced the turf industry since 1969. K&B Adams supplies premium turf maintenance products to industry professionals across Australia, from golf courses and bowls clubs to tennis courts and professional stadiums. </p>
+                <p>With over 30 years’ experience in the Australian turf industry, we know our stuff when it comes to lawn care. Now, we’re opening the door to you.<br></br>
+                Lawn Care Supplies is proudly backed by Larry's Lawncare, which has  serviced the turf industry since 1969. K&B Adams supplies premium turf maintenance products to industry professionals across Australia, from golf courses and bowls clubs to tennis courts and professional stadiums.
+                </p>
                 <div className="hero-btns">
                     <Button 
                         className='btns'
